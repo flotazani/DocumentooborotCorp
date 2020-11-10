@@ -191,6 +191,10 @@
 			<Subsystem>Справочники</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
+			<Role>ЧтениеДокументов</Role>
+			<Role>ЧтениеКонтрагентов</Role>
+			<Role>ИзменениеДокументов</Role>
+			<Role>ИзменениеКонтрагентов</Role>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
