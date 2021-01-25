@@ -196,6 +196,7 @@
 			<Role>ЧтениеКонтрагентов</Role>
 			<Role>ИзменениеДокументов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
+			<Role>СогласованиеДокументов</Role>
 			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
 			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
@@ -208,6 +209,7 @@
 			<Catalog>ВидыДокументов</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Enum>СогласованностьДокументов</Enum>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>

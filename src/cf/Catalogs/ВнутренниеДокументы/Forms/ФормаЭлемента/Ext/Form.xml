@@ -40,6 +40,15 @@
 			<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="18"/>
 		</InputField>
+		<InputField name="Согласован" id="47">
+			<DataPath>Объект.Согласован</DataPath>
+			<DropListButton>true</DropListButton>
+			<ContextMenu name="СогласованКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="49"/>
+			<Events>
+				<Event name="Opening">СогласованОткрытие</Event>
+			</Events>
+		</InputField>
 		<InputField name="ВидДокумента" id="44">
 			<DataPath>Объект.ВидДокумента</DataPath>
 			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="45"/>
