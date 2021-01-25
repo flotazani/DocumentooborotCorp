@@ -194,6 +194,8 @@
 			<Subsystem>Отчеты</Subsystem>
 			<Subsystem>ПланыВидовХарактеристик</Subsystem>
 			<Subsystem>Документы</Subsystem>
+			<Subsystem>Задачи</Subsystem>
+			<Subsystem>БизнесПроцессы</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<SessionParameter>РазделительЗначение</SessionParameter>
 			<SessionParameter>РазделительИспользование</SessionParameter>
@@ -225,10 +227,13 @@
 			<Enum>СогласованностьДокументов</Enum>
 			<Report>ПланФактПроекта</Report>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
+			<InformationRegister>Адресация</InformationRegister>
 			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
 			<AccumulationRegister>Доходы</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>Доходы</ChartOfCharacteristicTypes>
+			<BusinessProcess>Исполнение</BusinessProcess>
+			<Task>ЗадачаПользователя</Task>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
