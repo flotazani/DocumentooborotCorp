@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<InformationRegister uuid="26b14125-b593-4f72-9591-92d5b70df5e1">
+	<InformationRegister uuid="4d5916f8-d209-44fd-ae74-2270326232a7">
 		<InternalInfo>
 			<xr:GeneratedType name="InformationRegisterRecord.Адресация" category="Record">
-				<xr:TypeId>5b7a4f47-1f13-4dda-8798-82cd98afacbf</xr:TypeId>
-				<xr:ValueId>9bc7c785-5e4f-4613-ac76-7f88785925cf</xr:ValueId>
+				<xr:TypeId>d9fa08e2-cb0e-40d1-b49c-42d4dbd5cc6b</xr:TypeId>
+				<xr:ValueId>1cb6e727-cb89-4466-94bc-575c6183c974</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterManager.Адресация" category="Manager">
-				<xr:TypeId>5eaa3dfc-88f1-45d6-86c6-492c2270a32f</xr:TypeId>
-				<xr:ValueId>d64cb9e5-3e2e-42e2-a8a2-9a52a0bebf5c</xr:ValueId>
+				<xr:TypeId>687ad4ee-5805-428d-905f-b941bf0df766</xr:TypeId>
+				<xr:ValueId>a3a79628-c472-4e72-a9e7-2880e20066af</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterSelection.Адресация" category="Selection">
-				<xr:TypeId>ea73fd8a-abc6-4610-9bef-0378b22aeb0b</xr:TypeId>
-				<xr:ValueId>376671ad-c5c3-4240-b1a5-8e32a08e0c4c</xr:ValueId>
+				<xr:TypeId>4405ddf4-3ec1-4029-bbcb-72be7cf086ec</xr:TypeId>
+				<xr:ValueId>13584daf-8e50-4221-810f-f3a184be419b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterList.Адресация" category="List">
-				<xr:TypeId>42143932-6238-4452-806f-8f1ac89fd72c</xr:TypeId>
-				<xr:ValueId>21a6e673-d1ab-47b0-a15c-59cc58252dd7</xr:ValueId>
+				<xr:TypeId>b2506028-3942-4a39-bc04-2cc15bfcc0e9</xr:TypeId>
+				<xr:ValueId>d371bfd4-8b8e-4e3e-82ba-3172b021a5d6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordSet.Адресация" category="RecordSet">
-				<xr:TypeId>5c7adaf4-fee1-4e2e-9c86-ff07f4f98cbf</xr:TypeId>
-				<xr:ValueId>7d15777e-bfe1-4c0f-ae28-7a0b9591ab4d</xr:ValueId>
+				<xr:TypeId>6cd2eea6-83b2-44d3-8363-b58c08435039</xr:TypeId>
+				<xr:ValueId>c385b16b-7dbb-4f3e-818d-77755320f6e9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordKey.Адресация" category="RecordKey">
-				<xr:TypeId>da1e2cb1-8c14-49b6-b59e-843bdd9621d9</xr:TypeId>
-				<xr:ValueId>2e435912-2d10-4b2a-854b-c83aaf5dd6d7</xr:ValueId>
+				<xr:TypeId>e00558c2-3811-4156-bc1b-4ba09c5ec4c0</xr:TypeId>
+				<xr:ValueId>74eb96a6-e155-499b-8b50-616d62fbd15c</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="InformationRegisterRecordManager.Адресация" category="RecordManager">
-				<xr:TypeId>658b2007-60c8-4fc2-b728-11558338d373</xr:TypeId>
-				<xr:ValueId>8c9045f0-5bb4-4ad1-9a27-a0a8053ad05c</xr:ValueId>
+				<xr:TypeId>f471f8b5-3f36-4b6c-9488-a712cc4ad225</xr:TypeId>
+				<xr:ValueId>fd70bc9c-3017-40a1-b40f-911adfd4752a</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -170,7 +170,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Dimension uuid="c87587f2-0e4e-4e35-9e14-048dc058a860">
+			<Dimension uuid="bb60ca56-58a6-41b6-8208-a6889307b678">
 				<Properties>
 					<Name>Пользователь</Name>
 					<Synonym>
@@ -212,7 +212,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="9e8ff8af-2353-4969-bbf4-911ee57d3c84">
+			<Dimension uuid="4898dd39-c8a2-4c8e-bef3-5d4213a7de7f">
 				<Properties>
 					<Name>Подразделение</Name>
 					<Synonym>
@@ -254,7 +254,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="71a97e38-3749-414d-a3b9-5c5612fab2c9">
+			<Dimension uuid="17935f66-dd04-4fa2-9e30-21defb01c1aa">
 				<Properties>
 					<Name>ФактическийПользователь</Name>
 					<Synonym>
@@ -296,7 +296,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="1c8e82c7-8eef-4306-9b8c-389224c70dca">
+			<Dimension uuid="ed05372d-e8d7-40d3-a652-5fd99fd3ab16">
 				<Properties>
 					<Name>АвторЗадачи</Name>
 					<Synonym>

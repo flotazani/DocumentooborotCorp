@@ -14,7 +14,7 @@
 		<FitPageMode>Auto</FitPageMode>
 	</PrintParameters>
 	<Items>
-		<Start id="1" uuid="86618266-3dba-4f34-9bd7-fac03ab61cb1">
+		<Start id="1" uuid="fb353671-2619-4165-9c6d-aea2dc9a93e5">
 			<Properties>
 				<Name>Старт</Name>
 				<Title>
@@ -36,7 +36,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="40" left="120" bottom="100" right="200"/>
+				<Location top="60" left="300" bottom="120" right="360"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -65,10 +65,10 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="160" y="100"/>
-					<Point x="160" y="110"/>
-					<Point x="160" y="110"/>
-					<Point x="160" y="120"/>
+					<Point x="330" y="120"/>
+					<Point x="330" y="160"/>
+					<Point x="330" y="160"/>
+					<Point x="330" y="200"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -89,7 +89,7 @@
 				<EndArrow>Filled</EndArrow>
 			</Properties>
 		</ConnectionLine>
-		<Activity id="3" uuid="2262bc10-1e9b-404d-831c-565d0c775f70">
+		<Activity id="3" uuid="354ee5e2-dfef-4fd2-bed7-e97f0e83a102">
 			<Properties>
 				<Name>Выполнить</Name>
 				<Title>
@@ -111,7 +111,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="120" left="100" bottom="180" right="220"/>
+				<Location top="200" left="280" bottom="280" right="380"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -121,27 +121,18 @@
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.Пользователь">
-						<Value xsi:nil="true"/>
-					</AddressingAttribute>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.Подразделение">
-						<Value xsi:nil="true"/>
-					</AddressingAttribute>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.ФактическийПользователь">
-						<Value xsi:nil="true"/>
-					</AddressingAttribute>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.АвторЗадачи">
+					<AddressingAttribute ref="Task.ЗадачиПользователя.AddressingAttribute.Пользователь">
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
 			<Events>
 				<Event name="InteractiveActivationProcessing"/>
-				<Event name="BeforeCreateTasks">ВыполнитьПередСозданиемЗадач</Event>
-				<Event name="OnCreateTask">ВыполнитьПриСозданииЗадач</Event>
-				<Event name="OnExecute">ВыполнитьПриВыполнении</Event>
-				<Event name="CheckExecutionProcessing">ВыполнитьОбработкаПроверкиВыполнения</Event>
-				<Event name="BeforeExecute">ВыполнитьПередВыполнением</Event>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask"/>
+				<Event name="OnExecute">ПроверкаПриВыполнении</Event>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -163,10 +154,10 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="160" y="180"/>
-					<Point x="160" y="190"/>
-					<Point x="160" y="190"/>
-					<Point x="160" y="200"/>
+					<Point x="330" y="280"/>
+					<Point x="330" y="300"/>
+					<Point x="330" y="300"/>
+					<Point x="330" y="320"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -187,7 +178,7 @@
 				<EndArrow>Filled</EndArrow>
 			</Properties>
 		</ConnectionLine>
-		<Completion id="5" uuid="7dcd22b7-8efe-49f0-af87-0fd7edefe1cf">
+		<Completion id="5" uuid="05f6e9a2-dcb3-45a6-8bf4-88475cf6a790">
 			<Properties>
 				<Name>Завершение</Name>
 				<Title>
@@ -209,7 +200,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="380" left="120" bottom="440" right="200"/>
+				<Location top="460" left="440" bottom="520" right="520"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -220,7 +211,7 @@
 				<Event name="OnComplete"/>
 			</Events>
 		</Completion>
-		<Condition id="6" uuid="865d2404-0293-41ec-b16d-1141b64dae15">
+		<Condition id="6" uuid="1f39d998-08fd-4b11-b7f2-c5a0d1f7e4e0">
 			<Properties>
 				<Name>ЗадачаВыполненаУспешно</Name>
 				<Title>
@@ -242,7 +233,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="280" left="100" bottom="340" right="220"/>
+				<Location top="420" left="260" bottom="480" right="400"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -278,10 +269,10 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="100" y="310"/>
-					<Point x="80" y="310"/>
-					<Point x="80" y="150"/>
-					<Point x="100" y="150"/>
+					<Point x="260" y="450"/>
+					<Point x="240" y="450"/>
+					<Point x="240" y="240"/>
+					<Point x="280" y="240"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -325,11 +316,9 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="220" y="310"/>
-					<Point x="240" y="310"/>
-					<Point x="240" y="360"/>
-					<Point x="160" y="360"/>
-					<Point x="160" y="380"/>
+					<Point x="400" y="450"/>
+					<Point x="480" y="450"/>
+					<Point x="480" y="460"/>
 				</PivotPoints>
 				<Connect>
 					<From>
@@ -350,7 +339,7 @@
 				<EndArrow>Filled</EndArrow>
 			</Properties>
 		</ConnectionLine>
-		<Activity id="9" uuid="f2942d89-ef29-4546-82a0-79c6ac4d6ac3">
+		<Activity id="9" uuid="f96fdb2f-a23e-46b1-95d0-4ba4ac5aec0f">
 			<Properties>
 				<Name>Проверка</Name>
 				<Title>
@@ -372,7 +361,7 @@
 				<HorizontalAlign>Center</HorizontalAlign>
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
-				<Location top="200" left="100" bottom="260" right="220"/>
+				<Location top="320" left="280" bottom="380" right="380"/>
 				<Border width="1" gap="false">
 					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
 				</Border>
@@ -382,27 +371,18 @@
 				<Explanation/>
 				<Group>false</Group>
 				<AddressingAttributes>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.Пользователь">
-						<Value xsi:nil="true"/>
-					</AddressingAttribute>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.Подразделение">
-						<Value xsi:nil="true"/>
-					</AddressingAttribute>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.ФактическийПользователь">
-						<Value xsi:nil="true"/>
-					</AddressingAttribute>
-					<AddressingAttribute ref="Task.ЗадачаПользователя.AddressingAttribute.АвторЗадачи">
+					<AddressingAttribute ref="Task.ЗадачиПользователя.AddressingAttribute.Пользователь">
 						<Value xsi:nil="true"/>
 					</AddressingAttribute>
 				</AddressingAttributes>
 			</Properties>
 			<Events>
 				<Event name="InteractiveActivationProcessing"/>
-				<Event name="BeforeCreateTasks">ВыполнитьПередСозданиемЗадач</Event>
-				<Event name="OnCreateTask">ВыполнитьПриСозданииЗадач</Event>
-				<Event name="OnExecute">ВыполнитьПриВыполнении</Event>
-				<Event name="CheckExecutionProcessing">ПроверкаОбработкаПроверкиВыполнения</Event>
-				<Event name="BeforeExecute">ВыполнитьПередВыполнением</Event>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask">ПроверкаПриСозданииЗадач</Event>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>
 			</Events>
 		</Activity>
@@ -424,10 +404,10 @@
 				<VerticalAlign>Center</VerticalAlign>
 				<PictureLocation>Left</PictureLocation>
 				<PivotPoints>
-					<Point x="160" y="260"/>
-					<Point x="160" y="270"/>
-					<Point x="160" y="270"/>
-					<Point x="160" y="280"/>
+					<Point x="330" y="380"/>
+					<Point x="330" y="400"/>
+					<Point x="330" y="400"/>
+					<Point x="330" y="420"/>
 				</PivotPoints>
 				<Connect>
 					<From>

@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="9ca9eb5f-9b47-46e4-926d-0700c4d03daf">
+	<Document uuid="f30f74dd-7ba5-4512-a5c0-393680d7ce11">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ПлановыеЗатратыПроекта" category="Object">
-				<xr:TypeId>e37148c9-84ba-4d85-be69-e15a533e13bb</xr:TypeId>
-				<xr:ValueId>c8227b16-e83e-443c-aa06-62518a9b45b0</xr:ValueId>
+				<xr:TypeId>72233430-d472-476c-8c7b-2e90b7158577</xr:TypeId>
+				<xr:ValueId>c34f6922-349f-406e-9b15-7f1e39f6825d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ПлановыеЗатратыПроекта" category="Ref">
-				<xr:TypeId>d6bf02b3-bdf5-46da-9851-25fb0e66ec9d</xr:TypeId>
-				<xr:ValueId>8c11b696-7cd9-45fb-adbb-9d00ea8e20a9</xr:ValueId>
+				<xr:TypeId>1fba97cf-064a-4990-9429-7e0a1af3b46b</xr:TypeId>
+				<xr:ValueId>b95ecfb6-8489-41a6-89b2-41e3b15703d5</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ПлановыеЗатратыПроекта" category="Selection">
-				<xr:TypeId>352445c8-316d-40a5-aaf3-bc0fad125d43</xr:TypeId>
-				<xr:ValueId>8a314dc6-3bda-42ef-b520-219b6ed948c5</xr:ValueId>
+				<xr:TypeId>5a2586b5-e5e9-4a22-b88d-87e4da8b49a8</xr:TypeId>
+				<xr:ValueId>e6f66aba-0059-46c4-af46-da1bdff22718</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ПлановыеЗатратыПроекта" category="List">
-				<xr:TypeId>834e1fba-2f50-47a8-91d3-28d76cd5e8a7</xr:TypeId>
-				<xr:ValueId>db25ad05-7b53-4b2a-84fa-260c8943c6ef</xr:ValueId>
+				<xr:TypeId>db2ceb65-acdf-44e0-bd90-05a28593015a</xr:TypeId>
+				<xr:ValueId>23134c97-3b6b-47a9-a0e2-eba99df0e95f</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ПлановыеЗатратыПроекта" category="Manager">
-				<xr:TypeId>b69a1150-d759-4eb2-8a39-76644054951f</xr:TypeId>
-				<xr:ValueId>e9784695-6ab9-4bb0-a65d-e6aa57d73a0d</xr:ValueId>
+				<xr:TypeId>614d542d-bfc1-4982-96e6-c9ac82d00a08</xr:TypeId>
+				<xr:ValueId>2067901e-8272-4d47-9cfa-443b42a2f272</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -212,7 +212,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="9bd0a874-dc11-4685-9f23-8de76b58592a">
+			<Attribute uuid="82335775-fa83-4ed5-8713-82c40f83929d">
 				<Properties>
 					<Name>Организация</Name>
 					<Synonym>
@@ -251,7 +251,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="582aa9bc-1183-4ded-b905-0473cf1e5165">
+			<Attribute uuid="0623d6f0-503e-41fd-b02d-1fad763a68a0">
 				<Properties>
 					<Name>Автор</Name>
 					<Synonym>
@@ -290,7 +290,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="afd87e0b-d8c6-456c-99e7-5b9b83f1da3d">
+			<Attribute uuid="b9b9cc02-cef5-42a0-80cd-3f95fc74f588">
 				<Properties>
 					<Name>Проект</Name>
 					<Synonym>
@@ -329,15 +329,15 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="062c07f4-b34b-4ef3-b77e-29e039ef1eab">
+			<TabularSection uuid="25b420c4-9edc-4529-b90c-6e2e65569258">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ПлановыеЗатратыПроекта.СтатьиЗатрат" category="TabularSection">
-						<xr:TypeId>8b1038d4-bcb1-4af9-bd65-4b3d77984358</xr:TypeId>
-						<xr:ValueId>42e543d4-09a2-4b43-8daa-1151235da79d</xr:ValueId>
+						<xr:TypeId>e842170a-d7c4-47bf-b2ca-d4fd67fba369</xr:TypeId>
+						<xr:ValueId>2e095ba7-3e0d-4ec4-b6cb-f7c19ac3e10b</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.ПлановыеЗатратыПроекта.СтатьиЗатрат" category="TabularSectionRow">
-						<xr:TypeId>396f5e68-23ca-4e25-aa8c-efafe0f6c9be</xr:TypeId>
-						<xr:ValueId>296ac73f-68b3-4e73-ba33-75b8667bb419</xr:ValueId>
+						<xr:TypeId>ea77df5e-472b-4089-a7da-3a0eb0671938</xr:TypeId>
+						<xr:ValueId>55a75c19-f120-4091-b665-3a9873af8702</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -381,7 +381,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="5c268a6f-7e2d-4ce3-920c-ba2743e22913">
+					<Attribute uuid="7ec878c7-dcdb-4f69-b8b6-733c4e6b94ed">
 						<Properties>
 							<Name>Подразделение</Name>
 							<Synonym>
@@ -418,7 +418,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="bf42d5b0-7a6d-4486-b9a4-b30c67b7963d">
+					<Attribute uuid="362938a3-c6a2-4cdd-a4c0-501ffe114319">
 						<Properties>
 							<Name>Статья</Name>
 							<Synonym>
@@ -455,7 +455,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="b7e31bb6-bf90-4641-9dd7-5ad9a9c9043d">
+					<Attribute uuid="a7168117-1342-4276-a067-6066c3690da9">
 						<Properties>
 							<Name>АналитикаРасходов</Name>
 							<Synonym>
@@ -498,7 +498,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="d8dafe1e-b32f-488a-809a-25bbe2ae4a99">
+					<Attribute uuid="6eb380be-0715-4496-bca3-59879e8f7c99">
 						<Properties>
 							<Name>СуммаРасходов</Name>
 							<Synonym>

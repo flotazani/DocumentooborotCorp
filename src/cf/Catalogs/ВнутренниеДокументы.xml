@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="b8cdf8b0-f393-4beb-a7b9-d37ccf548909">
+	<Catalog uuid="89b5bd43-4f6f-4525-8e4d-4948070f75fe">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ВнутренниеДокументы" category="Object">
-				<xr:TypeId>e0018b52-4dfa-40ec-86e9-0f8465f44daa</xr:TypeId>
-				<xr:ValueId>edf909a6-ff53-4163-8cc9-a61c72065f3d</xr:ValueId>
+				<xr:TypeId>180ef6a0-3d42-4f75-9d5e-0d7c2668320b</xr:TypeId>
+				<xr:ValueId>8c291fca-5b07-434f-9d43-405bc84c5a0d</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ВнутренниеДокументы" category="Ref">
-				<xr:TypeId>281661f8-d1d5-4d72-9097-7afeb31996ee</xr:TypeId>
-				<xr:ValueId>4ef4067e-1799-4117-97d3-9082b914d8f2</xr:ValueId>
+				<xr:TypeId>eead566b-f0e4-4a17-a248-05f8eac4c592</xr:TypeId>
+				<xr:ValueId>28d4f906-dab7-42f6-b604-d2661d431fb0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ВнутренниеДокументы" category="Selection">
-				<xr:TypeId>90247633-8148-427d-abc6-d6ec0e53298b</xr:TypeId>
-				<xr:ValueId>6b099389-7f44-4ad8-ad62-fa36250b3bcc</xr:ValueId>
+				<xr:TypeId>2169e243-85c5-430a-8dea-6f40c135753f</xr:TypeId>
+				<xr:ValueId>fdfd5516-f68a-438f-916d-85857a6004c0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ВнутренниеДокументы" category="List">
-				<xr:TypeId>50787f0a-b7b3-4367-ac53-e11eaefb2699</xr:TypeId>
-				<xr:ValueId>abde1022-ea5d-49ee-86b5-e32d10342642</xr:ValueId>
+				<xr:TypeId>d40454d7-4ddd-438a-a3c6-eb2078aad8d7</xr:TypeId>
+				<xr:ValueId>614bbee3-c995-406d-a936-9c9f88a6c8c0</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ВнутренниеДокументы" category="Manager">
-				<xr:TypeId>d6ea7eca-68c3-4290-b8fa-5afd888a31da</xr:TypeId>
-				<xr:ValueId>ca47e693-82b2-4f48-9343-bcd8048e5bbd</xr:ValueId>
+				<xr:TypeId>5bf7b096-6b98-4866-ae20-618926945757</xr:TypeId>
+				<xr:ValueId>3882b43f-086a-4671-9bd7-445da172eb51</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -87,7 +87,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="532dd9dc-2837-4047-9204-58b5566423de">
+			<Attribute uuid="a6ea5b57-c607-4088-aede-e0ab7347430b">
 				<Properties>
 					<Name>Организация</Name>
 					<Synonym>
@@ -127,7 +127,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="a8983ef2-31fd-4617-8190-d04342f7aae6">
+			<Attribute uuid="f8d6e8e4-d027-4a0b-9364-0495c75a8ee1">
 				<Properties>
 					<Name>Автор</Name>
 					<Synonym>
@@ -167,7 +167,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9b8c7b7a-b7a5-46d3-9fe4-6b19e13fae13">
+			<Attribute uuid="b66d6720-184e-4155-baff-8531072b1134">
 				<Properties>
 					<Name>Контрагент</Name>
 					<Synonym>
@@ -207,7 +207,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="513d2ec7-69ec-40dc-920a-ea40fa619a87">
+			<Attribute uuid="ed8a405f-87b1-4b3d-847c-6b05257f8248">
 				<Properties>
 					<Name>КонтактноеЛицо</Name>
 					<Synonym>
@@ -253,7 +253,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="047c0740-d52a-4965-ae72-52383a0790cd">
+			<Attribute uuid="0a102e86-2fce-4579-a8d1-5234f0498aad">
 				<Properties>
 					<Name>Комментарий</Name>
 					<Synonym>
@@ -266,7 +266,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
+							<v8:Length>300</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
@@ -297,47 +297,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="da5d8595-6508-40b1-8d35-cd77551c8042">
-				<Properties>
-					<Name>ЯвляетсяДоговором</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Является договором</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:boolean</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="0d4467c1-689d-4d6d-8f3c-4388df7d318d">
+			<Attribute uuid="6cf232a0-dded-48e2-841c-b8394fb11105">
 				<Properties>
 					<Name>ВидДокумента</Name>
 					<Synonym>
@@ -377,18 +337,18 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="556fb7fb-f2a6-4f7d-9ac6-0e7e6477f71f">
+			<Attribute uuid="7f4a604b-112c-4195-a17d-dd50b6d75792">
 				<Properties>
-					<Name>Согласован</Name>
+					<Name>ЯвляетсяДоговором</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Согласован</v8:content>
+							<v8:content>Является договором</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:EnumRef.СогласованностьДокументов</v8:Type>
+						<v8:Type>xs:boolean</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -417,7 +377,47 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="862cc3ec-ac5a-4068-b607-0ffae4249ce8">
+			<Attribute uuid="e26fbdf5-b413-4f21-a802-3adf27a09a9b">
+				<Properties>
+					<Name>Согласован</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Согласован</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:EnumRef.СогласованностьДокумента</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xr:DesignTimeRef">Enum.СогласованностьДокумента.EnumValue.НеСогласован</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6cd4d4e7-a07a-46ac-a065-b617102990fa">
 				<Properties>
 					<Name>Фамилия</Name>
 					<Synonym>
@@ -461,7 +461,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="c6acd003-7a56-4a01-9d75-19aef41137f4">
+			<Attribute uuid="a4b1d7c2-1a9b-4baa-bddc-69096797240c">
 				<Properties>
 					<Name>Имя</Name>
 					<Synonym>
@@ -505,7 +505,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="0dd97b8c-38bb-4fb7-a3fa-6a18e1144cd5">
+			<Attribute uuid="61cc3bd4-69c7-45c9-a4ef-09105fbaeb62">
 				<Properties>
 					<Name>Отчество</Name>
 					<Synonym>
@@ -549,7 +549,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="735b5b43-e1fb-4ad9-86e7-b9aeac168eb9">
+			<Attribute uuid="07ea48ad-f323-4144-997f-0f3a4423b8f0">
 				<Properties>
 					<Name>Проект</Name>
 					<Synonym>
@@ -589,15 +589,101 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<TabularSection uuid="6c5fbb61-340b-4734-8210-aeb0720fd65a">
+			<Attribute uuid="92810a5a-5bb7-41b5-a90d-d09d63321f80">
+				<Properties>
+					<Name>Подразделение</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подразделение</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fbc05bac-6eb4-48cd-9921-7276b6d6cdc9">
+				<Properties>
+					<Name>ИННОрганизации</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ИНН организации</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ИННОрганизаций</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks>
+						<xr:Link>
+							<xr:Name>Отбор.Владелец</xr:Name>
+							<xr:DataPath xsi:type="xs:string">Catalog.ВнутренниеДокументы.Attribute.Организация</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+					</ChoiceParameterLinks>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="541d93e1-0938-4ee4-8d2f-3bfc0257ca81">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ВнутренниеДокументы.Предметы" category="TabularSection">
-						<xr:TypeId>5eb1646e-d2d6-4c6a-bf0e-f8b3584d2e67</xr:TypeId>
-						<xr:ValueId>fd3bee80-4092-4bd9-b694-72b9102ba748</xr:ValueId>
+						<xr:TypeId>60e4d662-2a75-4ed8-9758-8fd5d32caadd</xr:TypeId>
+						<xr:ValueId>eb19e27a-92e0-4a23-983a-870172e663a9</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="CatalogTabularSectionRow.ВнутренниеДокументы.Предметы" category="TabularSectionRow">
-						<xr:TypeId>b54d3790-762a-4f00-9ebe-e363f026748e</xr:TypeId>
-						<xr:ValueId>5a2540db-398d-4ed9-80da-c4fe4a9f01ea</xr:ValueId>
+						<xr:TypeId>abc494af-8a23-4abb-af15-0a1dd2ec9044</xr:TypeId>
+						<xr:ValueId>447e10cf-1eab-4e97-b260-fa377ad4f17e</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -614,7 +700,7 @@
 					<Use>ForItem</Use>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="910a0bf5-4589-4b8c-abdd-893dda8b2b8a">
+					<Attribute uuid="d77f6c3b-40fe-46a9-aaf6-6e5b367cc4aa">
 						<Properties>
 							<Name>Предмет</Name>
 							<Synonym>
@@ -655,14 +741,19 @@
 			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 			<Template>Печать</Template>
-			<Command uuid="eba7c96a-a2e3-4eb4-a937-82aa4e3ee2e0">
+			<Command uuid="5ac776c8-a256-47d9-91ee-9a3b75c54fe7">
 				<Properties>
 					<Name>Печать</Name>
-					<Synonym/>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать</v8:content>
+						</v8:item>
+					</Synonym>
 					<Comment/>
 					<Group>FormCommandBarImportant</Group>
 					<CommandParameterType>
-						<v8:TypeId>c80a3d24-d5e5-491a-8da7-e0a7d7ef5e66</v8:TypeId>
+						<v8:Type>cfg:CatalogRef.ВнутренниеДокументы</v8:Type>
 					</CommandParameterType>
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>

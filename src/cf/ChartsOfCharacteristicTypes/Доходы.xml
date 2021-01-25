@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<ChartOfCharacteristicTypes uuid="dbfd515d-34c3-4266-b6ea-a825f3dc46b0">
+	<ChartOfCharacteristicTypes uuid="31a10f91-540d-4806-b408-f143fb4ea63a">
 		<InternalInfo>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.Доходы" category="Object">
-				<xr:TypeId>2ce7a6fb-4b33-4921-8948-4d09b314c498</xr:TypeId>
-				<xr:ValueId>cd7bc7da-4004-4b43-bdff-aadecde986e3</xr:ValueId>
+				<xr:TypeId>388b9588-c2f4-4c33-9bcf-8fa84c4549e6</xr:TypeId>
+				<xr:ValueId>e5b4815d-b613-40ce-97de-8697044ba5ba</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.Доходы" category="Ref">
-				<xr:TypeId>0f14d2d0-b0f7-4a8d-b3ed-e8d7e43fd484</xr:TypeId>
-				<xr:ValueId>cadba04f-203f-42c7-94f8-2b51f0f59774</xr:ValueId>
+				<xr:TypeId>e76e9f2e-a9fa-49fe-b689-4312a7fff9b2</xr:TypeId>
+				<xr:ValueId>3ba12cff-5b0b-4dbf-875c-a635b7d335db</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.Доходы" category="Selection">
-				<xr:TypeId>abdd251b-5f02-4658-a653-032dea9af56f</xr:TypeId>
-				<xr:ValueId>9c0d0c5a-b7f9-48eb-9ac3-c178e106145d</xr:ValueId>
+				<xr:TypeId>b7afdac8-e17a-4dcd-9597-84977782da5b</xr:TypeId>
+				<xr:ValueId>f107f871-3af3-47a8-867b-10d3d82f75a2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesList.Доходы" category="List">
-				<xr:TypeId>58da927a-6231-4f36-a5e6-ee0f5b7979cc</xr:TypeId>
-				<xr:ValueId>b996bd3f-855e-4183-975e-a5ab3eea6ecd</xr:ValueId>
+				<xr:TypeId>20c3b2d2-164b-448e-93bf-30dd41f1db2e</xr:TypeId>
+				<xr:ValueId>b902d1b2-e5e9-471f-b735-3293983c5c97</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="Characteristic.Доходы" category="Characteristic">
-				<xr:TypeId>94d850af-bd11-42a7-8ef2-73328be51435</xr:TypeId>
-				<xr:ValueId>1952d1c6-48e7-4029-ba2a-93191f238c34</xr:ValueId>
+				<xr:TypeId>1e361bc2-2f0e-4705-901d-602e16417708</xr:TypeId>
+				<xr:ValueId>3e5ac3f2-eb75-4bfc-91ef-467e62747315</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.Доходы" category="Manager">
-				<xr:TypeId>5e11cd75-6335-428d-af6c-36ccd05e969f</xr:TypeId>
-				<xr:ValueId>50f116d6-221b-4a75-8d84-26e7536a3909</xr:ValueId>
+				<xr:TypeId>6294d788-8b15-4154-97ae-2d23a452cbc7</xr:TypeId>
+				<xr:ValueId>3e7e0acf-b383-48e5-a5e3-5226e2ba8dd7</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -40,13 +40,13 @@
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<CharacteristicExtValues/>
 			<Type>
-				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 				<v8:Type>cfg:CatalogRef.ДополнительныеЗначения</v8:Type>
-				<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
+				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 				<v8:Type>xs:boolean</v8:Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+				<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:Type>xs:decimal</v8:Type>
-				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>10</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>

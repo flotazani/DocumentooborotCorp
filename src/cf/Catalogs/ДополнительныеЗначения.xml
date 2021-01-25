@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="21c5e67a-ed03-4c9a-8629-866e10ba5966">
+	<Catalog uuid="08f3d9ff-63cf-4a0c-874f-3567fea66564">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.ДополнительныеЗначения" category="Object">
-				<xr:TypeId>06211574-d233-44d2-9b01-5c46dbad2f48</xr:TypeId>
-				<xr:ValueId>0353454d-008b-4c9c-afee-c520c04d5d8f</xr:ValueId>
+				<xr:TypeId>da763cbc-f49e-4263-8961-6f04e1e76c79</xr:TypeId>
+				<xr:ValueId>a91fe2f0-f848-457f-8752-3fa3858ef157</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.ДополнительныеЗначения" category="Ref">
-				<xr:TypeId>33d6c3b1-8bf2-4a80-85d8-26556dab6e8d</xr:TypeId>
-				<xr:ValueId>1d6975f1-6564-429c-9fe7-7d3aca34dcc4</xr:ValueId>
+				<xr:TypeId>09b7bd0f-4951-4047-9167-420204a98652</xr:TypeId>
+				<xr:ValueId>ba6f5122-ea7e-43fe-a1ef-336b15bcb5ba</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.ДополнительныеЗначения" category="Selection">
-				<xr:TypeId>3d0fa764-cade-49cd-92ef-21405e5fc721</xr:TypeId>
-				<xr:ValueId>03868cf2-6648-4b73-a7a1-f725467dc7c0</xr:ValueId>
+				<xr:TypeId>29fcabb4-ea82-4b20-b387-41ca20136016</xr:TypeId>
+				<xr:ValueId>603bdb76-8a21-4b92-9b50-b6b1b0eaaff2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.ДополнительныеЗначения" category="List">
-				<xr:TypeId>c1b16744-357e-466e-9442-ec2c2cb6c4fc</xr:TypeId>
-				<xr:ValueId>36ef9193-16d6-47a2-88d1-20da47f4794f</xr:ValueId>
+				<xr:TypeId>9e90c29b-f469-4f04-8049-3db795d0efb2</xr:TypeId>
+				<xr:ValueId>dfa98450-79ac-44bb-8a89-dae124dfc7d2</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.ДополнительныеЗначения" category="Manager">
-				<xr:TypeId>f07f9e1e-68ab-4941-8e21-80151d60198c</xr:TypeId>
-				<xr:ValueId>07afa313-8fe7-4204-86a5-d9c902c859ac</xr:ValueId>
+				<xr:TypeId>ce1c968c-6f15-441c-96cd-d8aaaca8c332</xr:TypeId>
+				<xr:ValueId>8603a744-b8d6-4ec0-847b-dc3fb7b5ee2d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>

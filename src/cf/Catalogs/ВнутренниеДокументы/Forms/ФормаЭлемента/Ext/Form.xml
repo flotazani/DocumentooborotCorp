@@ -40,75 +40,77 @@
 			<ContextMenu name="КонтактноеЛицоКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="КонтактноеЛицоРасширеннаяПодсказка" id="18"/>
 		</InputField>
-		<InputField name="Согласован" id="47">
-			<DataPath>Объект.Согласован</DataPath>
-			<DropListButton>true</DropListButton>
-			<ContextMenu name="СогласованКонтекстноеМеню" id="48"/>
-			<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="49"/>
-			<Events>
-				<Event name="Opening">СогласованОткрытие</Event>
-			</Events>
-		</InputField>
-		<InputField name="ВидДокумента" id="44">
-			<DataPath>Объект.ВидДокумента</DataPath>
-			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="45"/>
-			<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="46"/>
-			<Events>
-				<Event name="ChoiceProcessing">ВидОбработкаВыбора</Event>
-			</Events>
-		</InputField>
 		<InputField name="Комментарий" id="19">
 			<DataPath>Объект.Комментарий</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="КомментарийКонтекстноеМеню" id="20"/>
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="21"/>
 		</InputField>
-		<Table name="Предметы" id="25">
+		<InputField name="ВидДокумента" id="22">
+			<DataPath>Объект.ВидДокумента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВидДокументаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ВидДокументаРасширеннаяПодсказка" id="24"/>
+			<Events>
+				<Event name="ChoiceProcessing">ВидОбработкаВыбора</Event>
+			</Events>
+		</InputField>
+		<InputField name="Проект" id="50">
+			<DataPath>Объект.Проект</DataPath>
+			<ContextMenu name="ПроектКонтекстноеМеню" id="51"/>
+			<ExtendedTooltip name="ПроектРасширеннаяПодсказка" id="52"/>
+		</InputField>
+		<InputField name="Согласован" id="47">
+			<DataPath>Объект.Согласован</DataPath>
+			<ContextMenu name="СогласованКонтекстноеМеню" id="48"/>
+			<ExtendedTooltip name="СогласованРасширеннаяПодсказка" id="49"/>
+		</InputField>
+		<Table name="Предметы" id="28">
 			<Representation>List</Representation>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<DataPath>Объект.Предметы</DataPath>
 			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="ПредметыКонтекстноеМеню" id="26"/>
-			<AutoCommandBar name="ПредметыКоманднаяПанель" id="27"/>
-			<ExtendedTooltip name="ПредметыРасширеннаяПодсказка" id="28"/>
-			<SearchStringAddition name="ПредметыСтрокаПоиска" id="29">
+			<ContextMenu name="ПредметыКонтекстноеМеню" id="29"/>
+			<AutoCommandBar name="ПредметыКоманднаяПанель" id="30"/>
+			<ExtendedTooltip name="ПредметыРасширеннаяПодсказка" id="31"/>
+			<SearchStringAddition name="ПредметыСтрокаПоиска" id="32">
 				<AdditionSource>
 					<Item>Предметы</Item>
 					<Type>SearchStringRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="ПредметыСтрокаПоискаКонтекстноеМеню" id="30"/>
-				<ExtendedTooltip name="ПредметыСтрокаПоискаРасширеннаяПодсказка" id="31"/>
+				<ContextMenu name="ПредметыСтрокаПоискаКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="ПредметыСтрокаПоискаРасширеннаяПодсказка" id="34"/>
 			</SearchStringAddition>
-			<ViewStatusAddition name="ПредметыСостояниеПросмотра" id="32">
+			<ViewStatusAddition name="ПредметыСостояниеПросмотра" id="35">
 				<AdditionSource>
 					<Item>Предметы</Item>
 					<Type>ViewStatusRepresentation</Type>
 				</AdditionSource>
-				<ContextMenu name="ПредметыСостояниеПросмотраКонтекстноеМеню" id="33"/>
-				<ExtendedTooltip name="ПредметыСостояниеПросмотраРасширеннаяПодсказка" id="34"/>
+				<ContextMenu name="ПредметыСостояниеПросмотраКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="ПредметыСостояниеПросмотраРасширеннаяПодсказка" id="37"/>
 			</ViewStatusAddition>
-			<SearchControlAddition name="ПредметыУправлениеПоиском" id="35">
+			<SearchControlAddition name="ПредметыУправлениеПоиском" id="38">
 				<AdditionSource>
 					<Item>Предметы</Item>
 					<Type>SearchControl</Type>
 				</AdditionSource>
-				<ContextMenu name="ПредметыУправлениеПоискомКонтекстноеМеню" id="36"/>
-				<ExtendedTooltip name="ПредметыУправлениеПоискомРасширеннаяПодсказка" id="37"/>
+				<ContextMenu name="ПредметыУправлениеПоискомКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="ПредметыУправлениеПоискомРасширеннаяПодсказка" id="40"/>
 			</SearchControlAddition>
 			<ChildItems>
-				<LabelField name="ПредметыНомерСтроки" id="38">
+				<LabelField name="ПредметыНомерСтроки" id="41">
 					<DataPath>Объект.Предметы.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПредметыНомерСтрокиКонтекстноеМеню" id="39"/>
-					<ExtendedTooltip name="ПредметыНомерСтрокиРасширеннаяПодсказка" id="40"/>
+					<ContextMenu name="ПредметыНомерСтрокиКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ПредметыНомерСтрокиРасширеннаяПодсказка" id="43"/>
 				</LabelField>
-				<InputField name="ПредметыПредмет" id="41">
+				<InputField name="ПредметыПредмет" id="44">
 					<DataPath>Объект.Предметы.Предмет</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ПредметыПредметКонтекстноеМеню" id="42"/>
-					<ExtendedTooltip name="ПредметыПредметРасширеннаяПодсказка" id="43"/>
+					<ContextMenu name="ПредметыПредметКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ПредметыПредметРасширеннаяПодсказка" id="46"/>
 				</InputField>
 			</ChildItems>
 		</Table>

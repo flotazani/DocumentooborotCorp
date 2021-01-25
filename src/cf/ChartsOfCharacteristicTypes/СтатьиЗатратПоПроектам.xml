@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<ChartOfCharacteristicTypes uuid="574e9a42-d77b-48f9-bc30-5d21a301b160">
+	<ChartOfCharacteristicTypes uuid="3806be47-b5a6-442b-804f-9b8dc5e6bff2">
 		<InternalInfo>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СтатьиЗатратПоПроектам" category="Object">
-				<xr:TypeId>1999eec3-ae33-4515-8e12-0cba3bc59e6a</xr:TypeId>
-				<xr:ValueId>8277e58d-4a3d-4372-900e-95aa5f57ec79</xr:ValueId>
+				<xr:TypeId>ac0b28ed-4c7e-4cd2-8614-015ca5cb859d</xr:TypeId>
+				<xr:ValueId>e3ff7d62-1c35-405f-8f70-4aa810ed8033</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СтатьиЗатратПоПроектам" category="Ref">
-				<xr:TypeId>36bdc60d-0fa4-453b-8ef9-f7631dced550</xr:TypeId>
-				<xr:ValueId>2dd0e95f-27bb-4e23-a66b-46dd010b9ed4</xr:ValueId>
+				<xr:TypeId>e421682a-ce44-4789-982c-51b0bc7174a8</xr:TypeId>
+				<xr:ValueId>a4f3e50b-8781-4569-8ade-ea1592048bea</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СтатьиЗатратПоПроектам" category="Selection">
-				<xr:TypeId>eec1b7ec-abaf-411b-8554-98c5b8a9d04b</xr:TypeId>
-				<xr:ValueId>1a0228dd-edc0-480a-b56e-79ef164fa92b</xr:ValueId>
+				<xr:TypeId>20a0cbc7-f56e-465c-bb14-91639b3efd97</xr:TypeId>
+				<xr:ValueId>1ff7f850-46e4-4062-817b-5f563eb1310a</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СтатьиЗатратПоПроектам" category="List">
-				<xr:TypeId>3235a988-6e5d-4127-b7bc-dd3acc6fbb94</xr:TypeId>
-				<xr:ValueId>a1102017-fc1b-45e4-bd3b-0f865e53043a</xr:ValueId>
+				<xr:TypeId>38d05cf5-91a8-462b-a1b8-8563bbdfbac5</xr:TypeId>
+				<xr:ValueId>1a1e28dd-d160-49f7-b84c-8ca9ee18f852</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="Characteristic.СтатьиЗатратПоПроектам" category="Characteristic">
-				<xr:TypeId>13700969-4d5a-4f0f-878e-33884d9dc64c</xr:TypeId>
-				<xr:ValueId>5f6ece00-1a94-401e-ad4d-85501b231152</xr:ValueId>
+				<xr:TypeId>25108d95-87bb-4740-b4a2-3c0183c7bc4c</xr:TypeId>
+				<xr:ValueId>89d4f258-a3dd-49ce-9930-8287d5731c25</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СтатьиЗатратПоПроектам" category="Manager">
-				<xr:TypeId>4001ad4e-12df-4fc3-89c5-3fc9bf55f99b</xr:TypeId>
-				<xr:ValueId>4fae84b4-b16d-4d1f-8a41-798bbed99df9</xr:ValueId>
+				<xr:TypeId>02bc34fd-cc1f-4382-87f4-3ebbf88243e4</xr:TypeId>
+				<xr:ValueId>0d95a1c1-93ac-4667-9cc1-d106b1226bf6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,12 +41,11 @@
 			<CharacteristicExtValues/>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
-				<v8:Type>cfg:CatalogRef.ДополнительныеЗначения</v8:Type>
-				<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
 				<v8:Type>xs:boolean</v8:Type>
+				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+				<v8:Type>cfg:CatalogRef.Подразделения</v8:Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:Type>xs:decimal</v8:Type>
-				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 				<v8:NumberQualifiers>
 					<v8:Digits>10</v8:Digits>
 					<v8:FractionDigits>0</v8:FractionDigits>
@@ -340,7 +339,7 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="7203ad9a-f6a0-4fd0-987f-4eaf9d0f6cc6">
+			<Attribute uuid="1c1386d2-e621-4846-9cb3-2accaf305eeb">
 				<Properties>
 					<Name>Строка</Name>
 					<Synonym>
@@ -384,7 +383,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d60f2424-bb4a-495f-99fd-1a02ad0a23f3">
+			<Attribute uuid="cd090682-0a78-4f1b-88cd-c5a60da2de0a">
 				<Properties>
 					<Name>Организация</Name>
 					<Synonym>
@@ -424,7 +423,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="d01d92f6-4001-4628-b03d-ea723c3d1880">
+			<Attribute uuid="90e5b1c6-fa04-40a7-8dcf-0fb5e075fd7d">
 				<Properties>
 					<Name>Подразделение</Name>
 					<Synonym>
@@ -470,7 +469,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="588443f4-b3fe-4ac6-8362-e843093e7c14">
+			<Attribute uuid="fb93fc36-85ce-44d5-8e88-eac63905249d">
 				<Properties>
 					<Name>ФизическоеЛицо</Name>
 					<Synonym>
@@ -510,7 +509,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="56bbca6f-93a9-40dd-83aa-9882c29b5c4e">
+			<Attribute uuid="51e2af68-36b2-4890-be07-b406ab00da09">
 				<Properties>
 					<Name>Контрагент</Name>
 					<Synonym>

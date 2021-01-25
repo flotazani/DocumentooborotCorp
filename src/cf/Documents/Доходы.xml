@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="de0ee85c-3080-45df-a73f-ff30c8c00ed6">
+	<Document uuid="2c5c1bae-33f5-474d-94a5-04dbcf5452c9">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.Доходы" category="Object">
-				<xr:TypeId>b41eb5d2-6799-4467-afc0-bf99ead78580</xr:TypeId>
-				<xr:ValueId>30e3b469-9476-4d27-b48a-cc184b5efcf8</xr:ValueId>
+				<xr:TypeId>5a2b9147-8e56-4fce-bf7d-6f58fba0935a</xr:TypeId>
+				<xr:ValueId>d193c873-2b2a-4f8a-90b5-dde411435622</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.Доходы" category="Ref">
-				<xr:TypeId>22c5e765-4a59-4b1c-b941-c142b43d6cda</xr:TypeId>
-				<xr:ValueId>d9a72c94-1376-49b0-973a-9efd4c28cc90</xr:ValueId>
+				<xr:TypeId>23253a76-0d9f-4df9-9db9-54a6ca0b58d5</xr:TypeId>
+				<xr:ValueId>8dc9b7d4-6a7b-4ea5-8aa5-0113a1e40708</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.Доходы" category="Selection">
-				<xr:TypeId>688152a6-7c45-4612-b3a8-eaeaed6e6bc4</xr:TypeId>
-				<xr:ValueId>281e252d-4947-482f-afc7-b52b1d0020b3</xr:ValueId>
+				<xr:TypeId>73209f5c-2674-4d39-8517-d7040bfddc41</xr:TypeId>
+				<xr:ValueId>438f1e84-22c9-49e5-ba18-e9b2395d9b9b</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.Доходы" category="List">
-				<xr:TypeId>8404ae71-8a66-4d63-9b8d-619d6f139d39</xr:TypeId>
-				<xr:ValueId>a4aed151-737f-4fd2-b7ac-88ec5887645d</xr:ValueId>
+				<xr:TypeId>a03bf471-63a3-4d1d-b90b-e29b0550378c</xr:TypeId>
+				<xr:ValueId>0e408880-b13c-46c4-a108-4aa342440719</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.Доходы" category="Manager">
-				<xr:TypeId>575c8119-f228-4633-8dfb-2ab8ee988e16</xr:TypeId>
-				<xr:ValueId>f9d641a9-bdb8-4fcc-850d-b0da1709d4cb</xr:ValueId>
+				<xr:TypeId>ada8da85-311d-454a-93dd-cbe32923a734</xr:TypeId>
+				<xr:ValueId>46c89f78-2fb3-4aa0-a850-351ba6586ca8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -212,15 +212,15 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
-			<TabularSection uuid="767924f9-1c1e-4bc3-bc4a-0feffcf54ec2">
+			<TabularSection uuid="67972218-e103-4dad-916a-d2ba907d80d4">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.Доходы.Доходы" category="TabularSection">
-						<xr:TypeId>219aa18c-e1b6-4480-89f5-082fffba6610</xr:TypeId>
-						<xr:ValueId>19455184-e3cc-4d33-bb3d-fc575574bc6e</xr:ValueId>
+						<xr:TypeId>99d0bf37-ec00-4cc1-ab5b-0248d4ded371</xr:TypeId>
+						<xr:ValueId>c7d3acbf-e03d-4d70-bc7e-ab73e2ecd63f</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.Доходы.Доходы" category="TabularSectionRow">
-						<xr:TypeId>156a9da3-2716-4718-bed1-f8cfcbe132d6</xr:TypeId>
-						<xr:ValueId>4765584a-4950-4df4-9cba-77254cd7bd1c</xr:ValueId>
+						<xr:TypeId>43a85d12-ef0d-40d5-bcbc-c092aa851264</xr:TypeId>
+						<xr:ValueId>c20ba551-31dc-44ac-ab62-320eb3124fdf</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -264,7 +264,7 @@
 					</StandardAttributes>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="ea3696a3-a993-4c07-8331-bc846bf0502d">
+					<Attribute uuid="66cfa737-ea56-46a3-a504-4f1df3e1c285">
 						<Properties>
 							<Name>СтатьяДоходов</Name>
 							<Synonym>
@@ -301,7 +301,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="29c914b7-8101-482c-b080-6de8a939890d">
+					<Attribute uuid="7aa05ea5-0ec5-455f-909a-74f2a2164e6f">
 						<Properties>
 							<Name>АналитикаДоходов</Name>
 							<Synonym>
@@ -344,7 +344,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="2a60e767-e7b5-4489-ab3d-fcac261802de">
+					<Attribute uuid="de4ff82f-e87d-4082-8854-cf5776b1ee3a">
 						<Properties>
 							<Name>Сумма</Name>
 							<Synonym>
