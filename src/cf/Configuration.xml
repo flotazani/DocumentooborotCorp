@@ -195,6 +195,8 @@
 			<Subsystem>ПланыВидовХарактеристик</Subsystem>
 			<Subsystem>Документы</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
+			<SessionParameter>РазделительЗначение</SessionParameter>
+			<SessionParameter>РазделительИспользование</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<Role>ЧтениеДокументов</Role>
 			<Role>ЧтениеКонтрагентов</Role>
@@ -202,6 +204,7 @@
 			<Role>ИзменениеКонтрагентов</Role>
 			<Role>СогласованиеДокументов</Role>
 			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
+			<CommonAttribute>Разделитель</CommonAttribute>
 			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
