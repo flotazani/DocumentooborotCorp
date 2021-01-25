@@ -189,6 +189,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>Справочники</Subsystem>
+			<Subsystem>РегистрыСведений</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<Role>ЧтениеДокументов</Role>
@@ -202,11 +203,12 @@
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Контрагенты</Catalog>
-			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
 			<Catalog>Файлы</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
