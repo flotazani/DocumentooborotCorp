@@ -209,6 +209,7 @@
 			<Catalog>ВидыДокументов</Catalog>
 			<Catalog>Файлы</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>ИННОгранизаций</Catalog>
 			<Enum>СогласованностьДокументов</Enum>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
 		</ChildObjects>
