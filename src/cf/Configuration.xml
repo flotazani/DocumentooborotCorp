@@ -195,6 +195,8 @@
 			<Role>ЧтениеКонтрагентов</Role>
 			<Role>ИзменениеДокументов</Role>
 			<Role>ИзменениеКонтрагентов</Role>
+			<CommonModule>ОбщийМодульПолнотекстовыйПоиск</CommonModule>
+			<ScheduledJob>ПолнотекстовыйПоиск</ScheduledJob>
 			<Catalog>Валюты</Catalog>
 			<Catalog>Организации</Catalog>
 			<Catalog>Подразделения</Catalog>
@@ -202,9 +204,9 @@
 			<Catalog>Контрагенты</Catalog>
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>КонтактныеЛицаКонтрагентов</Catalog>
-			<Catalog>Файлы</Catalog>
 			<Catalog>ВнутренниеДокументы</Catalog>
 			<Catalog>ВидыДокументов</Catalog>
+			<Catalog>Файлы</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
