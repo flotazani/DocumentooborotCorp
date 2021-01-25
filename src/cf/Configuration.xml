@@ -190,6 +190,10 @@
 			<Language>Русский</Language>
 			<Subsystem>Справочники</Subsystem>
 			<Subsystem>РегистрыСведений</Subsystem>
+			<Subsystem>РегистрыНакоплений</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>ПланыВидовХарактеристик</Subsystem>
+			<Subsystem>Документы</Subsystem>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<Role>ЧтениеДокументов</Role>
@@ -211,8 +215,17 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ИННОгранизаций</Catalog>
 			<Catalog>Проекты</Catalog>
+			<Catalog>ДополнительныеЗначения</Catalog>
+			<Document>ПлановыеЗатратыПроекта</Document>
+			<Document>ФактическиеРасходы</Document>
+			<Document>Доходы</Document>
 			<Enum>СогласованностьДокументов</Enum>
+			<Report>ПланФактПроекта</Report>
 			<InformationRegister>ФИОФизическихЛиц</InformationRegister>
+			<AccumulationRegister>ЗатратыПоПроектам</AccumulationRegister>
+			<AccumulationRegister>Доходы</AccumulationRegister>
+			<ChartOfCharacteristicTypes>СтатьиЗатратПоПроектам</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>Доходы</ChartOfCharacteristicTypes>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
