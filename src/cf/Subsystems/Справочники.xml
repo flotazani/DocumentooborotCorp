@@ -26,6 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Файлы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ФизическиеЛица</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИННОгранизаций</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Проекты</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>
